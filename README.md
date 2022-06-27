@@ -20,7 +20,7 @@ PRIMARY KEY (`orderId`),  KEY `OrderStatusKey_idx` (`orderStatus`),  CONSTRAINT 
  KEY `orderIdKey_idx` (`orderId`),  KEY `ProductIdKey_idx` (`productId`),  CONSTRAINT `OrderIdForeignKey` FOREIGN KEY (`orderId`) REFERENCES `order` (`orderId`),
  CONSTRAINT `ProductIdFoerignKey` FOREIGN KEY (`productId`) REFERENCES `product` (`productId`))
 
-Insert some products into Product Table
+Execute the following scripts to insert some products into Product Table
   
 INSERT INTO `retail`.`product`(`productId`,`productName`,`price`,`Quantity`)VALUES(uuid(), 'Shirt', 20,100);
 INSERT INTO `retail`.`product`(`productId`,`productName`,`price`,`Quantity`)VALUES(uuid(), 'Socks', 10,200);
@@ -34,7 +34,7 @@ INSERT INTO `retail`.`product`(`productId`,`productName`,`price`,`Quantity`)VALU
 INSERT INTO `retail`.`product`(`productId`,`productName`,`price`,`Quantity`)VALUES(uuid(), 'Lunch Box', 20,100);
 INSERT INTO `retail`.`product`(`productId`,`productName`,`price`,`Quantity`)VALUES(uuid(), 'Shoes', 70,1000);
 
-Insert order statuses into Order Status table
+Execute the following scripts to insert order statuses into Order Status table
  
 INSERT INTO `retail`.`order_status` (`orderStatusName`) VALUES ('Delivered');
 INSERT INTO `retail`.`order_status` (`orderStatusName`) VALUES ('Pending');
