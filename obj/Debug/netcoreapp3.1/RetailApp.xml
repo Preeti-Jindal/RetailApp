@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RetailApp</name>
+    </assembly>
+    <members>
+        <member name="M:RetailApp.Controllers.OrdersController.GetOrders">
+            <summary>
+            Retrieve a paginated list of orders
+            </summary>
+        </member>
+        <member name="M:RetailApp.Controllers.OrdersController.GetOrder(System.String)">
+            <summary>
+            Retrieve a single order
+            </summary>
+        </member>
+        <member name="M:RetailApp.Controllers.OrdersController.PostOrder(RetailApp.Models.Order)">
+            <summary>
+            Create a new order
+            </summary>
+        </member>
+        <member name="M:RetailApp.Controllers.OrdersController.DeleteOrder(System.String)">
+            <summary>
+            Cancel an order
+            </summary>
+        </member>
+        <member name="M:RetailApp.Controllers.OrdersController.UpdateOrderDeliveryAddress(RetailApp.Models.DTO.OrderDto)">
+            <summary>
+            Update the order delivery address
+            </summary>
+        </member>
+        <member name="M:RetailApp.Controllers.OrdersController.UpdateOrderItems(RetailApp.Models.DTO.OrderDto)">
+            <summary>
+            Update the order items
+            </summary>
+        </member>
+    </members>
+</doc>
