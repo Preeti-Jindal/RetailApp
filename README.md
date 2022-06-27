@@ -60,17 +60,15 @@ INSERT INTO `retail`.`order_status` (`orderStatusName`) VALUES ('Cancelled');
 
 5) Download the project and Open RetailApp soltuion.
 
-6) Some tips about the project are as follows:
+6) Connection string in the project by default set is: Server=127.0.0.1;Database=retail;Uid=root;Pwd=root;port=3306;
 
-7) Connection string in the project by default set is: Server=127.0.0.1;Database=retail;Uid=root;Pwd=root;port=3306;
+7) Scaffolded the existing DB into project using Pomelo.EntityFrameworkCore.MySql library.
 
-8) Scaffolded the existing DB into project using Pomelo.EntityFrameworkCore.MySql library.
+8) APIs are defined under OrdersController.
 
-9) APIs are defined under OrdersController.
+9) The application is integerated with Swagger to list down the APIs and to test get and post API's using Swashbuckle.AspNetCore and Swashbuckle.Core libraries.
 
-10) The application is integerated with Swagger to list down the APIs and to test get and post API's using Swashbuckle.AspNetCore and Swashbuckle.Core libraries.
-
-11) Run the application and it will display the swagger URL for verification of API's.
+10) Run the application and it will display the swagger URL for verification of API's.
  
  
  
